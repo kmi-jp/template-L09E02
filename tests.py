@@ -7,8 +7,8 @@ from passwords import password_generator
 @pytest.mark.parametrize(
     "length, count",
     [
-        (5, 8936928),
-        (4, 677040)
+        (5, 60466176),
+        (4, 1679616)
     ],
 )
 def test_rows_even_numbers(length, count):
