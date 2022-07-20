@@ -24,3 +24,9 @@ assert len(list(password_generator(5))) == 60466176
 
 V řešení použíjte pouze modul `itertools` a `string`. Nepoužívejte cykly, seznamy ani jiné datové struktury.
 
+## Lokální testování
+Funkčnost řešení ověříte následujícím příkazem:
+
+```bash
+pytest tests.py
+```
